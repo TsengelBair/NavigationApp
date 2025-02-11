@@ -1,0 +1,1 @@
+export default new Set(['distance', 'steps', 'time']);

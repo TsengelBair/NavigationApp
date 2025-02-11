@@ -1,0 +1,72 @@
+body {
+	background-color: #fff;
+}
+
+.container {
+	padding-top: 50px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+	width: 100%;
+}
+
+.floors {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+}
+
+.mapWrapper {
+	position: relative;
+	width: calc(100% - 10px);
+}
+
+.mapImage {
+	width: 100%;
+}
+
+.path {
+	position: absolute;
+	inset: 0;
+}
+
+.form {
+	padding-bottom: 40px;
+}
+
+.form > br {
+	line-height: 2;
+}
+
+.formLabel {
+	margin: 0 0 10px 0;
+	font-size: 16px;
+}
+
+.label {
+	font-size: 16px;
+}
+
+.input {
+	padding: 0 5px;
+	margin: 0 5px;
+	font-size: 20px; /* Уменьшение размера шрифта */
+}
+
+.textInput {
+	padding: 0 5px;
+	margin: 0 5px;
+	font-size: 18px;
+}
+
+.formButton {
+	width: 100%;
+	height: 30px;
+	font-size: 12px; /* Уменьшаем размер шрифта кнопки */
+}
