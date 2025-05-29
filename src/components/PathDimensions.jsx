@@ -25,7 +25,7 @@ const names = {
 };
 
 const conversions = {
-	distance: weight => `${Math.round(weight * 100) / 100} м.`,
-	steps: weight => Math.round(weight),
-	time: weight => `${Math.round(weight * 10) / 10} сек.`
+    distance: weight => `${Math.round(weight)} м.`,        
+    steps: weight => Math.round(weight),                     
+    time: weight => `${Math.round(weight)} сек.`             
 };
